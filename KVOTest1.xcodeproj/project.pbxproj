@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B84B62813E1DF1E0008BD92 /* IconOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B84B62613E1DF1E0008BD92 /* IconOverlay@2x.png */; };
+		1B84B62913E1DF1E0008BD92 /* IconOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B84B62713E1DF1E0008BD92 /* IconOverlay.png */; };
+		1B84B62C13E1E1520008BD92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B84B62B13E1E1520008BD92 /* QuartzCore.framework */; };
+		1B84B63613E1E6C40008BD92 /* Icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B84B63213E1E6C40008BD92 /* Icon1@2x.png */; };
+		1B84B63713E1E6C40008BD92 /* Icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B84B63313E1E6C40008BD92 /* Icon2@2x.png */; };
+		1B84B63813E1E6C40008BD92 /* Icon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B84B63413E1E6C40008BD92 /* Icon3@2x.png */; };
+		1B84B63B13E1E6FE0008BD92 /* Icon0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B84B63A13E1E6FE0008BD92 /* Icon0@2x.png */; };
+		1B84B63E13E1E9950008BD92 /* IconMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B84B63C13E1E9950008BD92 /* IconMask.png */; };
+		1B84B63F13E1E9950008BD92 /* IconMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B84B63D13E1E9950008BD92 /* IconMask@2x.png */; };
 		1BFA543313E1D83A00E02117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFA543213E1D83A00E02117 /* UIKit.framework */; };
 		1BFA543513E1D83A00E02117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFA543413E1D83A00E02117 /* Foundation.framework */; };
 		1BFA543713E1D83A00E02117 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFA543613E1D83A00E02117 /* CoreGraphics.framework */; };
@@ -14,25 +23,33 @@
 		1BFA543F13E1D83A00E02117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA543E13E1D83A00E02117 /* main.m */; };
 		1BFA544313E1D83A00E02117 /* KVOTest1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA544213E1D83A00E02117 /* KVOTest1AppDelegate.m */; };
 		1BFA544613E1D83A00E02117 /* KVOTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA544513E1D83A00E02117 /* KVOTest1ViewController.m */; };
-		1BFA544913E1D83A00E02117 /* KVOTest1ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFA544713E1D83A00E02117 /* KVOTest1ViewController_iPhone.xib */; };
-		1BFA544C13E1D83A00E02117 /* KVOTest1ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFA544A13E1D83A00E02117 /* KVOTest1ViewController_iPad.xib */; };
+		1BFA545413E1D86400E02117 /* AppStoreItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA545313E1D86400E02117 /* AppStoreItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B84B62613E1DF1E0008BD92 /* IconOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconOverlay@2x.png"; sourceTree = "<group>"; };
+		1B84B62713E1DF1E0008BD92 /* IconOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconOverlay.png; sourceTree = "<group>"; };
+		1B84B62B13E1E1520008BD92 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1B84B63213E1E6C40008BD92 /* Icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon1@2x.png"; sourceTree = "<group>"; };
+		1B84B63313E1E6C40008BD92 /* Icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon2@2x.png"; sourceTree = "<group>"; };
+		1B84B63413E1E6C40008BD92 /* Icon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon3@2x.png"; sourceTree = "<group>"; };
+		1B84B63A13E1E6FE0008BD92 /* Icon0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon0@2x.png"; sourceTree = "<group>"; };
+		1B84B63C13E1E9950008BD92 /* IconMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconMask.png; sourceTree = "<group>"; };
+		1B84B63D13E1E9950008BD92 /* IconMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconMask@2x.png"; sourceTree = "<group>"; };
 		1BFA542E13E1D83900E02117 /* KVOTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFA543213E1D83A00E02117 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1BFA543413E1D83A00E02117 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BFA543613E1D83A00E02117 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1BFA543A13E1D83A00E02117 /* KVOTest1-Info.plist */ = {isa = PBXFileReference; path = "KVOTest1-Info.plist"; sourceTree = "<group>"; };
+		1BFA543A13E1D83A00E02117 /* KVOTest1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVOTest1-Info.plist"; sourceTree = "<group>"; };
 		1BFA543C13E1D83A00E02117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BFA543E13E1D83A00E02117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1BFA544013E1D83A00E02117 /* KVOTest1-Prefix.pch */ = {isa = PBXFileReference; path = "KVOTest1-Prefix.pch"; sourceTree = "<group>"; };
-		1BFA544113E1D83A00E02117 /* KVOTest1AppDelegate.h */ = {isa = PBXFileReference; path = KVOTest1AppDelegate.h; sourceTree = "<group>"; };
+		1BFA544013E1D83A00E02117 /* KVOTest1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVOTest1-Prefix.pch"; sourceTree = "<group>"; };
+		1BFA544113E1D83A00E02117 /* KVOTest1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOTest1AppDelegate.h; sourceTree = "<group>"; };
 		1BFA544213E1D83A00E02117 /* KVOTest1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTest1AppDelegate.m; sourceTree = "<group>"; };
-		1BFA544413E1D83A00E02117 /* KVOTest1ViewController.h */ = {isa = PBXFileReference; path = KVOTest1ViewController.h; sourceTree = "<group>"; };
+		1BFA544413E1D83A00E02117 /* KVOTest1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOTest1ViewController.h; sourceTree = "<group>"; };
 		1BFA544513E1D83A00E02117 /* KVOTest1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTest1ViewController.m; sourceTree = "<group>"; };
-		1BFA544813E1D83A00E02117 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KVOTest1ViewController_iPhone.xib; sourceTree = "<group>"; };
-		1BFA544B13E1D83A00E02117 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KVOTest1ViewController_iPad.xib; sourceTree = "<group>"; };
+		1BFA545213E1D86400E02117 /* AppStoreItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStoreItemView.h; sourceTree = "<group>"; };
+		1BFA545313E1D86400E02117 /* AppStoreItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStoreItemView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B84B62C13E1E1520008BD92 /* QuartzCore.framework in Frameworks */,
 				1BFA543313E1D83A00E02117 /* UIKit.framework in Frameworks */,
 				1BFA543513E1D83A00E02117 /* Foundation.framework in Frameworks */,
 				1BFA543713E1D83A00E02117 /* CoreGraphics.framework in Frameworks */,
@@ -49,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B84B62D13E1E58D0008BD92 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				1B84B63A13E1E6FE0008BD92 /* Icon0@2x.png */,
+				1B84B63213E1E6C40008BD92 /* Icon1@2x.png */,
+				1B84B63313E1E6C40008BD92 /* Icon2@2x.png */,
+				1B84B63413E1E6C40008BD92 /* Icon3@2x.png */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
 		1BFA542313E1D83900E02117 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +101,7 @@
 				1BFA543213E1D83A00E02117 /* UIKit.framework */,
 				1BFA543413E1D83A00E02117 /* Foundation.framework */,
 				1BFA543613E1D83A00E02117 /* CoreGraphics.framework */,
+				1B84B62B13E1E1520008BD92 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,9 +113,9 @@
 				1BFA544213E1D83A00E02117 /* KVOTest1AppDelegate.m */,
 				1BFA544413E1D83A00E02117 /* KVOTest1ViewController.h */,
 				1BFA544513E1D83A00E02117 /* KVOTest1ViewController.m */,
-				1BFA544713E1D83A00E02117 /* KVOTest1ViewController_iPhone.xib */,
-				1BFA544A13E1D83A00E02117 /* KVOTest1ViewController_iPad.xib */,
 				1BFA543913E1D83A00E02117 /* Supporting Files */,
+				1BFA545213E1D86400E02117 /* AppStoreItemView.h */,
+				1BFA545313E1D86400E02117 /* AppStoreItemView.m */,
 			);
 			path = KVOTest1;
 			sourceTree = "<group>";
@@ -93,6 +123,11 @@
 		1BFA543913E1D83A00E02117 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B84B62D13E1E58D0008BD92 /* AppIcons */,
+				1B84B62613E1DF1E0008BD92 /* IconOverlay@2x.png */,
+				1B84B62713E1DF1E0008BD92 /* IconOverlay.png */,
+				1B84B63C13E1E9950008BD92 /* IconMask.png */,
+				1B84B63D13E1E9950008BD92 /* IconMask@2x.png */,
 				1BFA543A13E1D83A00E02117 /* KVOTest1-Info.plist */,
 				1BFA543B13E1D83A00E02117 /* InfoPlist.strings */,
 				1BFA543E13E1D83A00E02117 /* main.m */,
@@ -149,8 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BFA543D13E1D83A00E02117 /* InfoPlist.strings in Resources */,
-				1BFA544913E1D83A00E02117 /* KVOTest1ViewController_iPhone.xib in Resources */,
-				1BFA544C13E1D83A00E02117 /* KVOTest1ViewController_iPad.xib in Resources */,
+				1B84B62813E1DF1E0008BD92 /* IconOverlay@2x.png in Resources */,
+				1B84B62913E1DF1E0008BD92 /* IconOverlay.png in Resources */,
+				1B84B63613E1E6C40008BD92 /* Icon1@2x.png in Resources */,
+				1B84B63713E1E6C40008BD92 /* Icon2@2x.png in Resources */,
+				1B84B63813E1E6C40008BD92 /* Icon3@2x.png in Resources */,
+				1B84B63B13E1E6FE0008BD92 /* Icon0@2x.png in Resources */,
+				1B84B63E13E1E9950008BD92 /* IconMask.png in Resources */,
+				1B84B63F13E1E9950008BD92 /* IconMask@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +205,7 @@
 				1BFA543F13E1D83A00E02117 /* main.m in Sources */,
 				1BFA544313E1D83A00E02117 /* KVOTest1AppDelegate.m in Sources */,
 				1BFA544613E1D83A00E02117 /* KVOTest1ViewController.m in Sources */,
+				1BFA545413E1D86400E02117 /* AppStoreItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,22 +220,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		1BFA544713E1D83A00E02117 /* KVOTest1ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BFA544813E1D83A00E02117 /* en */,
-			);
-			name = KVOTest1ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		1BFA544A13E1D83A00E02117 /* KVOTest1ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BFA544B13E1D83A00E02117 /* en */,
-			);
-			name = KVOTest1ViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -202,7 +228,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -213,11 +238,11 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -228,15 +253,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -285,6 +309,7 @@
 				1BFA545113E1D83A00E02117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

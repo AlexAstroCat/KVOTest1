@@ -3,7 +3,7 @@
 //  KVOTest1
 //
 //  Created by Michael Nachbaur on 11-07-28.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Decaf Ninja Software. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,8 +12,8 @@
 
 @interface KVOTest1AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) UIWindow *window;
 
-@property (strong, nonatomic) KVOTest1ViewController *viewController;
+@property (nonatomic, retain) KVOTest1ViewController *viewController;
 
 @end

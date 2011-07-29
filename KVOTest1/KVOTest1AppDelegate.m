@@ -3,7 +3,7 @@
 //  KVOTest1
 //
 //  Created by Michael Nachbaur on 11-07-28.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Decaf Ninja Software. All rights reserved.
 //
 
 #import "KVOTest1AppDelegate.h"
@@ -18,12 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[KVOTest1ViewController alloc] initWithNibName:@"KVOTest1ViewController_iPhone" bundle:nil]; 
-    } else {
-        self.viewController = [[KVOTest1ViewController alloc] initWithNibName:@"KVOTest1ViewController_iPad" bundle:nil]; 
-    }
+    self.viewController = [[KVOTest1ViewController alloc] initWithStyle:UITableViewStylePlain]; 
+
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
